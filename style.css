@@ -12,7 +12,17 @@ img {
     width: 60px;
     height: 60px;
     margin-bottom: -25px;
-    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#song-art:hover {
+    box-shadow: 0 0 10px #888888;
+    transition: 0.3s;
+}
+
+#song-title:hover {
+    color: #1db954;
+    transition: 0.3s;
 }
 
 #wrapper {
@@ -26,6 +36,7 @@ label {
 }
 
 input {
+    text-align: center;
     width: 300px;
     color: #fff;
     font-weight: 400;
@@ -51,6 +62,11 @@ button {
     border-radius: 20px;
     margin: 5px;
 
+}
+
+button:hover {
+    background-color: #333333;
+    transition: 0.3s;
 }
 
 #playlist-art {

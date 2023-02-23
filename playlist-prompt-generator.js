@@ -1,4 +1,3 @@
-const apiKey = '${{ secrets.OPEN_AI_KEY }}';
 const selectedEngine = "text-davinci-003";
 var playlistPrompt = "";
 
