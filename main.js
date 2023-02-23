@@ -1,4 +1,4 @@
-const CLIENT_ID = '${{ secrets.SPOTIFY_API_CLIENT }}';
+const CLIENT_ID = ${{ secrets.SPOTIFY_API_CLIENT }};
 const CLIENT_SECRET = ${{ secrets.SPOTIFY_API_SECRET }};
 
 console.log(CLIENT_ID);
