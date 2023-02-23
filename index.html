@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Similar Songs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <label for="preferences">Enter your song preferences:</label>
+
+        <div id="preferences-container">
+            <div>
+                <input type="text" class="preference-input">
+            </div>
+            <button id="add-preference-button">Add preference</button>
+        </div>
+        <button id="get-similar-songs-button">Get similar songs</button>
+    </div>
+    <img id="playlist-art"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif">
+    <div id="playlist"></div>
+    <script src="main.js"></script>
+    <script src="playlist-prompt-generator.js"></script>
+    <script src="playlist-image-generator.js"></script>
+</body>
+
+</html>
