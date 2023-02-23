@@ -1,0 +1,123 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #282c34;
+    background-color: #000000;
+}
+
+img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: -25px;
+    padding-left: 10px;
+}
+
+#wrapper {
+    margin-top: 30vh;
+    text-align: center;
+}
+
+label {
+    color: #fff;
+    margin-bottom: 200px;
+}
+
+input {
+    width: 300px;
+    color: #fff;
+    font-weight: 400;
+    background-color: #181818;
+    border: none;
+    border-radius: 20px;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#preferences-container {
+    margin-top: 20px;
+}
+
+
+
+button {
+    display: inline-block;
+    background-color: #232323;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+
+#playlist-art {
+    visibility: hidden;
+    padding: 50px;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+
+ol {
+    background-color: #121212;
+    display: flexbox;
+    margin: auto;
+    height: 600px;
+    width: 1000px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding-top: 50px;
+    counter-reset: item;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Style the thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #c0c0c0;
+}
+
+/* Style the thumb of the scrollbar */
+*::-moz-scrollbar-thumb {
+    background-color: #c0c0c0;
+}
+
+*::-moz-scrollbar-track {
+    background-color: transparent;
+}
+
+li {
+    display: inline-block;
+    margin-bottom: 35px;
+    display: block;
+    color: #fff;
+    /* list-style: none; */
+}
+
+li:before {
+    color: #a6a6a6;
+    content: counter(item) " ";
+    counter-increment: item;
+}
+
+.song-desc {
+    display: inline-block;
+    word-wrap: break-word;
+}
