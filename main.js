@@ -1,7 +1,8 @@
 const CLIENT_ID = '${{ secrets.SPOTIFY_API_CLIENT }}';
 const CLIENT_SECRET = '${{ secrets.SPOTIFY_API_SECRET }}';
 
-
+console.log(CLIENT_ID);
+console.log('${{ secrets.SPOTIFY_API_CLIENT }}');
 async function getAccessToken() {
     const response = await fetch('https://accounts.spotify.com/api/token', {
         method: 'POST',
