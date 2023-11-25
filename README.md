@@ -1,4 +1,7 @@
 # playlist-generator
+## Requirement
+- Spoitfy Api
+- OpenAi Api
 
 ## Spotify WEB API
 The Playlist Generator prompts the user for songs and uses Spotify's WEB API to generate a similar catalog of songs. The web api makes a request for the songs name, artist, and uri.
