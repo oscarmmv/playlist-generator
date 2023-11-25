@@ -4,7 +4,7 @@
 - OpenAi Api
 
 ## Spotify WEB API
-The Playlist Generator prompts the user for songs and uses Spotify's WEB API to generate a similar catalog of songs. The web api makes a request for the songs name, artist, and uri.
+The Playlist Generator prompts the user for songs and uses Spotify's WEB API to generate a similar catalog of songs. The web api makes a request for the songs name, artist, and url.
 
 ## Open AI Davinci Completions
 The Playlist Generator utilizes open ai's engine davinci-003 to generate a prompt using natural language for Open AI image generator
